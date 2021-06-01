@@ -186,7 +186,7 @@ The backend server is not part of your repository (due to it's size). However, w
 
 <a href="https://gitlab.cse.unsw.edu.au/COMP6080/21T1/ass2-backend">You can access the backend repository here</a>. Clone this repository onto your working machine. 
 
-`git clone gitlab@gitlab.cse.unsw.edu.au:COMP6080/21T1/ass2-backend backend`
+`git clone git@github.com:Suphachabhar/instagram_backend.git`
 
 Once cloned, you can view the `README.md` in new repository to see how to get the server running.
 
@@ -247,103 +247,5 @@ In this assignment, you are:
 
 You are prohibited from using the `async` and `await` syntax in this assignment. You must use ES6 Promises.
 
-## 5. Marking Criteria
 
-Your assignment will be hand-marked by tutor(s) in the course according to the criteria below.
 
-<table>
-	<tr>
-		<th>Criteria</th>
-		<th>Weighting</th>
-		<th>Description</th>
-	</tr>
-	<tr>
-		<td>Compliance to task requirements</td>
-		<td>70%</td>
-		<td>
-			<ul>
-				<li>Each milestone specified a aprticular % of overall assignment (summing up to 70%). Implement those components as required to receive the marks.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr>
-		<td>Mobile Responsiveness</td>
-		<td>15%</td>
-		<td>
-			<ul>
-				<li>Your application is usable for desktop sizes generally, tablet sizes generally, and mobile sizes generally (down to 400px wide, 700px high).</li>
-			</ul>
-		</td>
-	</tr>
-	<tr>
-		<td>Code Style</td>
-		<td>10%</td>
-		<td>
-			<ul>
-				<li>Your code is clean, well commented, with well-named variables, and well laid out.</li>
-			</ul>
-		</td>
-	</tr>
-	<tr>
-		<td>Usability & Accessibility</td>
-		<td>5%</td>
-		<td>
-			<ul>
-				<li>Your application is usable and easy to navigate. No obvious usability issues or confusing layouts/flows.</li>
-				<li>Your application follows standard accessibility guidelines, such as use of alt tags, and colours that aren't inaccessible.</li>
-        <li>Please add a few paragraphs (or series of dot points) to the file `usability.md` in your repository directory to outline the key steps you've taken to improve the usability and accessibility of your web app.</li>
-			</ul>
-		</td>
-	</tr>
-</table>
-
-## 6. Originality of Work
-
-The work you submit must be your own work.  Submission of work partially or completely derived from
-any other person or jointly written with any other person is not permitted.
-
-The penalties for such an offence may include negative marks, automatic failure of the course and
-possibly other academic discipline. Assignment submissions will be examined both automatically and
-manually for such submissions.
-
-Relevant scholarship authorities will be informed if students holding scholarships are involved in
-an incident of plagiarism or other misconduct.
-
-Do not provide or show your assignment work to any other person &mdash; apart from the teaching
-staff of COMP6080.
-
-If you knowingly provide or show your assignment work to another person for any reason, and work
-derived from it is submitted, you may be penalized, even if the work was submitted without your
-knowledge or consent.  This may apply even if your work is submitted by a third party unknown to
-you.
-
-Every time you make commits or pushes on this repository, you are acknowledging that the work you
-submit is your own work (as described above).
-
-Note you will not be penalized if your work has the potential to be taken without your consent or
-knowledge.
-
-**For students who completed COMP2041 in 2018**, this assignment is very similar to another you would 
-have completed. Please remember that UNSW plagiarism guidelines prevent you from using your previous work
-in other courses. This means you must complete this assignment without using/copying any code from
-other assignments. Generally though, this should be OK, as since it's been quite a while since COMP2041
-I am sure many students will not want to reuse their approaches from less-knowledgable selves.
-
-## 7. Submission
-
-This assignment is due *Monday 29th of March, 19:59:59*.
-
-Our systems automatically record the most recent push you make to your `master` branch. Therefore,
-to "submit" your code you simply need to make sure that your `master` branch (on the gitlab website)
-is the code that you want marked for this task.
-
-## 8. Late Submission Policy
-
-If your assignment is submitted after this date, each hour it is late reduces the maximum mark it can achieve by 2%.
-
-For example if an assignment you submitted with a raw awarded mark of 85% was submitted 5 hours late, the late submission would have no effect (as maximum mark would be 90%). If the same assignment was submitted 20 hours late it would be awarded 60%, the maximum mark it can achieve at that time.
-
-## 9. FAQ
-
-Q. Is the dummy Anon user initially following anyone?
-A. No, you will need to manually follow people in order to get `GET /dummy/user/feed` returning something useful
