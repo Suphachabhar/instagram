@@ -184,7 +184,7 @@ If you do implement a bonus feature, describe the feature and it's details in `b
 
 The backend server is not part of your repository (due to it's size). However, we have put it on a publically accessible repo (so only one copy, rather than separate repos deployed to every student).
 
-<a href="https://gitlab.cse.unsw.edu.au/COMP6080/21T1/ass2-backend">You can access the backend repository here</a>. Clone this repository onto your working machine. 
+<a href="https://github.com/Suphachabhar/instagram_backend">You can access the backend repository here</a>. Clone this repository onto your working machine. 
 
 `git clone git@github.com:Suphachabhar/instagram_backend.git`
 
